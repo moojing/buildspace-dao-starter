@@ -1,6 +1,6 @@
 import sdk from "./1-initialize-sdk.js";
 
-const bundleDrop = sdk.getBundleDropModule( process.env.APP_ADDRESS );
+const bundleDrop = sdk.getBundleDropModule( process.env.NFT_ADDRESS );
   
 (async () => {
   try {
